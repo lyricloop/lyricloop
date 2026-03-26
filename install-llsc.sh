@@ -5,7 +5,7 @@ set -e
 APP_NAME="llsc"
 REPO="lyricloop/lyricloop" ## binaries will be released on public repo
 INSTALL_DIR="/usr/local/bin"
-VERSION=v0.1.0
+VERSION=v0.1.3
 SERVICE_FILE="/etc/systemd/system/${APP_NAME}.service"
 ENV_FILE="/etc/${APP_NAME}.env"
 
